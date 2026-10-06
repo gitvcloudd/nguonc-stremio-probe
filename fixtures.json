@@ -1,0 +1,52 @@
+{
+  "schema": "nguonc-stremio-probe-fixtures/v1",
+  "source": "output_02102026.zip/raw-details.jsonl",
+  "sourceSha256": "3301e65983b203b9f6799757040418d6aa269bdeaeec8bc524028ab6c971c64f",
+  "items": [
+    {
+      "id": "dune2",
+      "title": "Dune: Part Two",
+      "nativeName": "Hành Tinh Cát: Phần Hai",
+      "slug": "hanh-tinh-cat-phan-hai",
+      "type": "movie",
+      "episodeSlug": "tap-full",
+      "snapshotFetchedAt": "2026-10-02T12:08:28.972Z",
+      "sources": [
+        {
+          "server": "Vietsub #1",
+          "embedUrl": "https://embed.streamc.xyz/embed.php?hash=fb1bf36c0930e5811d9004abb8daac3f"
+        }
+      ]
+    },
+    {
+      "id": "breakingbad-s1e1",
+      "title": "Breaking Bad S1E1",
+      "nativeName": "Tập Làm Người Xấu (Phần 1)",
+      "slug": "tap-lam-nguoi-xau-phan-1",
+      "type": "series",
+      "episodeSlug": "tap-1",
+      "snapshotFetchedAt": "2026-10-02T11:40:41.842Z",
+      "sources": [
+        {
+          "server": "Vietsub #1",
+          "embedUrl": "https://embed14.streamc.xyz/embed.php?hash=e134009eb790b9225e8a477f4763d02d"
+        }
+      ]
+    },
+    {
+      "id": "gto-e1",
+      "title": "Great Teacher Onizuka E1",
+      "nativeName": "Great Teacher Onizuka",
+      "slug": "great-teacher-onizuka",
+      "type": "series",
+      "episodeSlug": "tap-1",
+      "snapshotFetchedAt": "2026-10-02T11:40:04.219Z",
+      "sources": [
+        {
+          "server": "Vietsub #1",
+          "embedUrl": "https://embed1.streamc.xyz/embed.php?hash=5529b5e393a7db5b0251c501d37bee92"
+        }
+      ]
+    }
+  ]
+}

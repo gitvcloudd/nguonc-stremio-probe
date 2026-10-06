@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: nguonc-stremio-probe
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: node --check probe.mjs
+    startCommand: node probe.mjs --serve
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: TEST_ACCESS_KEY
+        generateValue: true
